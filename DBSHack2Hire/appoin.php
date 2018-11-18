@@ -1,7 +1,5 @@
-<?php
-     require 'dbconfig/config.php';
-	 
-	 session_start();
+<? php
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -198,39 +196,10 @@
       </style> 
 </head>
 <body>
-<div class="main" align="center">
-    <p class="su">Appointment</p>
-    <p style="color: #32cd32">Appointment Page</p><br>
-    <form name="customerreg" class="form1" align="center" action="app.php" method="POST">
-	Customer:
-    <select name="customer">
-  <option value="Ravi">Ravi</option>
-  <option value="Raju">Raju</option>
-  <option value="Hemanth">Hemanth</option>
-  <option value="Sameera">Sameera</option>
-</select>
-<br>
-<br>
-Location:
-    <select name="customer">
-  <option value="Hyderabad">Hyderabad</option>
-  <option value="Bangalore">Bangalore</option>
-  <option value="Pune">Pune</option>
-  <option value="Mumbai">Mumbai</option>
-</select>
-<br>
-<br>
- Date <input type="date" name="date">
-<br>
+<h4>Your Appointment is booked</h4>
 <br>
 
-     
-     
-      <a href="appoin.php"<input class="submit" type="submit" value="Book An Appointment" align="center" name="submit_btn" required>Book An Appointment </a>
-	  
-
-
-	  </form>
-  </div>
+ <a href="#"<input class="submit" type="submit" value="Home Page" align="center" name="submit_btn" required>Home Page</a>
 </body>
 </html>
+
